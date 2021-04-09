@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c52819d552.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>FOOD2POT WEBSITE</title>
@@ -16,7 +17,7 @@
                 <img src="images/food2potLogo.png" alt="Food2Pot">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=""><i class="fas fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -32,7 +33,7 @@
                         <a class="nav-link" href="#order">Place Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="images/instagram.png" alt=""></a>
+                        <a class="nav-link" href="https://www.instagram.com/food2pot/?hl=en" target="_blank"><img src="images/instagram.png" alt=""></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><img src="images/facebook.png" alt=""></a>
@@ -65,7 +66,7 @@
 
     <section class="Food2Pot-about animatedParent" id="about">
         <div class="container">
-            <h3 class="mb-5 abtHeading">About Us</h3>
+            <h3 class="abtHeading">About Us</h3>
             <div class="row">
                 <div class="col animated fadeInLeft">
                     <div class="about-wrap">
@@ -85,7 +86,7 @@
         </div>
     </section>
 
-    <section class="Food2Pot-whatWeDo animatedParent">
+    <section class="Food2Pot-whatWeDo animatedParent forWeb">
         <div class="container">
             <div class="row">
                 <div class="col animated fadeInLeft">
@@ -105,10 +106,29 @@
         </div>
     </section>
 
+    <section class="Food2Pot-whatWeDo animatedParent forMobile">
+        <div class="container">
+            <div class="row">
+                <div class="col animated fadeInRight">
+                    <div class="whatWheDo-Content">
+                        <h4 class="title mb-3">What We Do</h4>
+                        <p>
+                            We strive to change the narrative on local delicacies <br> <br> With every meal telling a different story, we are changing the narrative and raising the bar on local delicacies.
+                        </p>
+                    </div>
+                </div>
+                <div class="col animated fadeInLeft">
+                    <div class="whatWeDo">
+                        <img src="images/whatWeDo.png" alt="What We Do" class="sideImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="food2Pot-Customers animatedParent">
         <div class="container">
             <div class="row">
-                <div class="col animated fadeInLeft">
+                <div class="col animated fadeInLeft customersContent">
                     <h4 class="title">Our love affair with customers</h4>
                     <p>
                         We operate a customer centric model, as a result consumer welfare is always at the epicenter of our operations. It is for that reason we ensure that we at all times maintain the highest standards of industry best practice. <br> <br>
@@ -132,7 +152,7 @@
                 </div>
                 <div class="col padding-0 animated fadeInRight">
                     <div class="rightCol">
-                        <h4 class="headings mt-5 text-center">Discover the Food</h4>
+                        <h4 class="headings mt-5 text-center discoverHeadings">Discover the Food</h4>
                     </div>
                     <div class="downrow">
                         <p>
@@ -173,22 +193,22 @@
                     </div>
                     <div class="col">
                         <div class="dishwarp">
-                            <ul class="dishList">
-                                <li>
-                                    <img src="images/dishOne.png" alt="food2PotDishes" class="secondListImg animated fadeIn" height="230px">
-                                </li>
-                                <li>
+                            <div class="d-flex justify-content-between food2PotMenus">
+                                <div class="menusWrap">
+                                    <img src="images/dishOne.png" alt="food2PotDishes" class="secondListImg animated fadeIn pb-4" height="200px">
+                                </div>
+                                <div class="menusWrap">
                                     <img src="images/dish.png" alt="food2PotDishes" height="200px" class="animated fadeIn">
-                                </li>
-                            </ul>
-                            <ul class="dishList">
-                                <li>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between food2PotMenus">
+                                <div class="menusWrap">
                                     <img src="images/dishTwo.png" alt="food2PotDishes" height="200px" class="animated fadeIn">
-                                </li>
-                                <li>
+                                </div>
+                                <div class="menusWrap">
                                     <img src="images/dishOne.png" alt="food2PotDishes" class="secondListImg animated fadeIn" height="200px">
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -203,10 +223,10 @@
                 <div class="row">
                     <div class="col animated fadeIn">
                         <button class="comingSoonBtn">Coming Soon</button>
-                        <p class="font-weight-bold apps mt-5">
+                        <p class="font-weight-bold apps">
                             Easy Order and <br> Quick Delivery
                         </p>
-                        <ul class="ourApp mt-5">
+                        <ul class="ourApp">
                             <li>
                                 <img src="images/ios.png" alt="IOS STORE" class="appStore">
                             </li>
@@ -227,33 +247,35 @@
 
     <footer class="footer animatedParent">
         <div class="container">
-            <div class="row animated fadeIn">
-                <div class="col">
-                    <div>
-                        <img src="images/footerLogo.png" alt="" class="footerLogo">
+            <div class="footer-row animated fadeIn">
+                <div class="parent">
+                    <div class="box">
+                        <div>
+                            <img src="images/footerLogo.png" alt="" class="footerLogo">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <b>Address</b>
-                        <p>
-                           123, Lorem ipsum Street <br> Tangeran, Banten
-                        </p>
+                    <div class="box">
+                        <div>
+                            <b>Address</b>
+                            <p>
+                               Lekki, Nigeria
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <b>Contact</b>
-                        <p>
-                            +234 81 0000 0000
-                        </p>
-                        <p>
-                            +234 81 0000 0000
-                        </p>
+                    <div class="box">
+                        <div>
+                            <b>Contact</b>
+                            <p>
+                                +234 90 4199 6914
+                            </p>
+                            <p>
+                                +234 81 2929 2674
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <p>
+            <p class="Copyright">
                 Copyright 2021 Food2Pot by QN, All Right Reserved.
             </p>
         </div>

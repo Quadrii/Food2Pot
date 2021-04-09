@@ -1,0 +1,549 @@
+
+@media only screen and (max-width: 800px) {
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .food2PotDishes {
+        text-align: center;
+        margin-left: 0;
+    }
+    .discoverHeadings {
+        font-size: 38px;
+    }
+    .downrow p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .downrow {
+        padding: 30px 20px;
+        height: 226px;
+    }
+    .customersContent p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .food2PotDishes {
+        text-align: center;
+        margin-left: 0;
+    }
+    .discoverHeadings {
+        font-size: 38px;
+    }
+    .downrow p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .downrow {
+        padding: 30px 20px;
+        height: 217px;
+    }
+    .customersContent p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .tasteBanner {
+        height: 350px;
+    }
+    .food2PotDishes {
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .food2PotDishes img {
+        width: 290px;
+        height: unset;
+    }
+    .about-wrap p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .abtHeading {
+        margin-bottom: 10px !important;
+    }
+    .sideImg {
+        width: 250px;
+        height: 240px;
+        margin-left: 40px;
+    }
+    .whatWheDo-Content p {
+        font-size: 17px;
+    }
+    .customersContent p {
+        font-size: 15px;
+    }
+    .rightCol {
+        height: 100px;
+        padding: 1px 20px;
+    }
+    .discoverHeadings {
+        font-size: 13px;
+    }
+    .downrow {
+        height: 150px;
+        padding: 16px 20px;
+    }
+    .downrow p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .leftCol {
+        height: 258px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+    .parent {
+        display: unset;
+    }
+    .forWeb {
+        display:none;
+    }
+    .forMobile {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .tasteBanner {
+        height: 350px;
+    }
+    .food2PotDishes {
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .food2PotDishes img {
+        width: 200px;
+        height: unset;
+    }
+    .about-wrap p {
+        font-size: 15px;
+    }
+    .abtHeading {
+        margin-bottom: 10px !important;
+    }
+    .sideImg {
+        width: 200px;
+        height: 189px;
+        margin-left: 40px;
+    }
+    .whatWheDo-Content p {
+        font-size: 17px;
+    }
+    .customersContent p {
+        font-size: 15px;
+    }
+    .rightCol {
+        height: 100px;
+        padding: 1px 20px;
+    }
+    .discoverHeadings {
+        font-size: 13px;
+    }
+    .downrow {
+        height: 150px;
+        padding: 16px 20px;
+    }
+    .downrow p {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .leftCol {
+        height: 182px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+    .parent {
+        display: unset;
+    }
+    .forWeb {
+        display:none;
+    }
+    .forMobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .tasteBanner {
+        height: 350px;
+    }
+    .food2PotDishes {
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .food2PotDishes img {
+        width: 200px;
+        height: unset;
+    }
+    .about-wrap p {
+        font-size: 15px;
+    }
+    .abtHeading {
+        margin-bottom: 10px !important;
+    }
+    .sideImg {
+        width: 200px;
+        height: 189px;
+        margin-left: 40px;
+    }
+    .whatWheDo-Content p {
+        font-size: 15px;
+    }
+    .customersContent p {
+        font-size: 15px;
+    }
+    .rightCol {
+        height: 100px;
+        padding: 1px 20px;
+    }
+    .discoverHeadings {
+        font-size: 13px;
+    }
+    .downrow {
+        height: 150px;
+        padding: 16px 20px;
+    }
+    .downrow p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .leftCol {
+        height: 182px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+    .parent {
+        display: unset;
+    }
+    .forWeb {
+        display:none;
+    }
+    .forMobile {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+    .fa-bars {
+        color: #000;
+        font-size: 25px;
+    }
+    .tasteBanner {
+        height: 350px;
+    }
+    .food2PotDishes {
+        margin-top: 10px;
+        margin: left -5px;
+    }
+    .food2PotDishes img {
+        width: 200px;
+        height: unset;
+    }
+    .about-wrap p {
+        font-size: 15px;
+    }
+    .abtHeading {
+        margin-bottom: 10px !important;
+    }
+    .sideImg {
+        width: 200px;
+        height: 189px;
+        margin-left: 40px;
+    }
+    .whatWheDo-Content p {
+        font-size: 15px;
+    }
+    .customersContent p {
+        font-size: 15px;
+    }
+    .rightCol {
+        height: 100px;
+        padding: 1px 20px;
+    }
+    .discoverHeadings {
+        font-size: 13px;
+    }
+    .downrow {
+        height: 150px;
+        padding: 16px 20px;
+    }
+    .downrow p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .leftCol {
+        height: 182px;
+    }
+    .food2pot-order {
+        background: url(../images/food2potBackground.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .menusWrap img {
+        margin: 10px;
+    }
+    .MenuRow {
+        width: 100%;
+        padding: 0;
+    }
+    .food2pot-App {
+        background: url(../images/DiscoverFood2Pot.png) no-repeat 0px 0px;
+        margin-bottom: 20px;
+    }
+    .Appwrapper {
+        width: 80%;
+        padding: 0;
+        height: unset;
+    }
+    .Appwrapper .col {
+         text-align: center;
+    }
+    .apps {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ourApp {
+        margin-top: 0;
+    }
+    .appImgWrap {
+        margin-top: 0;
+    }
+    .appImg {
+        width: 210px;
+    }
+    .parent {
+        display: unset;
+    }
+    .forWeb {
+        display:none;
+    }
+    .forMobile {
+        display: block;
+    }
+}
